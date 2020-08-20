@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * masterMistakes - prints error message for shell
+ * errorHandler - prints error message for shell
  * @build: the build config
  */
-void masterMistakes(config *build)
+void errorHandler(config *build)
 {
 	register int len;
 	static char error[BUFSIZE];
